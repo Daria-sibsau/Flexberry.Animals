@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-animals-forest-e",
+  "editForm": "i-i-s-animals-forest-e",
+  "external": false,
+  "caption": "Forest",
+  "name": "IISAnimalsForestL",
+  "className": "ForestL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-animals-forest",
+      "modelProjection": "ForestL"
+    }
+  ]
+}

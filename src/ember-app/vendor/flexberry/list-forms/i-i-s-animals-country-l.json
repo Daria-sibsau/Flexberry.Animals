@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-animals-country-e",
+  "editForm": "i-i-s-animals-country-e",
+  "external": false,
+  "caption": "Country",
+  "name": "IISAnimalsCountryL",
+  "className": "CountryL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-animals-country",
+      "modelProjection": "CountryL"
+    }
+  ]
+}

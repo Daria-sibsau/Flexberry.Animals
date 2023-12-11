@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Animals",
+  "applicationTitle": "Animals",
+  "items": [
+    {
+      "link": null,
+      "menuName": "animals",
+      "caption": "Animals",
+      "title": "Animals",
+      "children": [
+        {
+          "link": "i-i-s-animals-country-l",
+          "menuName": null,
+          "caption": "Country",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-animals-animal-l",
+          "menuName": null,
+          "caption": "Animal",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-animals-forest-l",
+          "menuName": null,
+          "caption": "Forest",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

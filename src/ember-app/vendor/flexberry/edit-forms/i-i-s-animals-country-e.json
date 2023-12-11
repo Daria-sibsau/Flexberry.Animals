@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Country",
+  "name": "IISAnimalsCountryE",
+  "className": "CountryE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-animals-country",
+      "modelProjection": "CountryE"
+    }
+  ]
+}

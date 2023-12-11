@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISAnimalsAnimal",
+  "modelName": "i-i-s-animals-animal",
+  "className": "Animal",
+  "nameSpace": "IIS.Animals",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "burrow",
+      "relatedTo": "i-i-s-animals-burrow",
+      "inverse": "animal"
+    }
+  ],
+  "projections": [
+    {
+      "name": "AnimalE",
+      "modelName": "i-i-s-animals-animal",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "BurrowE",
+          "caption": "Burrow",
+          "name": "burrow",
+          "relatedTo": "i-i-s-animals-burrow",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "AnimalL",
+      "modelName": "i-i-s-animals-animal",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

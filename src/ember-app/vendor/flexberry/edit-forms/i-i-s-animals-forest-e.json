@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Country",
+      "projection": "CountryL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Forest",
+  "name": "IISAnimalsForestE",
+  "className": "ForestE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-animals-forest",
+      "modelProjection": "ForestE"
+    }
+  ]
+}
